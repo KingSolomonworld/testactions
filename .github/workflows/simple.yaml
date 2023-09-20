@@ -5,12 +5,12 @@ on: [push]
 jobs:
   run-shell-command:
     runs-on: ubuntu-18.04
-  steps:
-    - name: checkout
-      uses: actions/checkout@v3
-    - name: echo string
-      run: echo "Hello World"
-    - name: multi string
-      run: |
-        node -v
-        npm -v
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: echo string
+        run: echo "Hello World"
+         - name: multi string
+         run: |
+          node -v
+          npm -v
