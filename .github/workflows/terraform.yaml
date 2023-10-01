@@ -25,7 +25,7 @@ jobs:
         run: terraform validate
 
       - name: Plan Terraform changes
-        run: terraform plan 
+        run: terraform plan
 
         #- name: Apply Terraform changes
         # run: terraform apply -auto-approve terraform.tfplan ./terraform
