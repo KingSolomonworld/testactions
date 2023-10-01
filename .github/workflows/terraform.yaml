@@ -3,8 +3,8 @@ name: Terraform Workflow
 on: [push]
 
 env:
-  aws_access_key_id: ${{ secrets.ACCESS_KEY}}
-  aws_secret_access_key: ${{ secrets.SECRET_KEY}}
+  AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY}}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_KEY}}
 
 jobs:
   terraform:
